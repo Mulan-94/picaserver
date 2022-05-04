@@ -1,0 +1,37 @@
+#All temp files
+*tmp
+!images/tmp/.gitkeep
+
+# readme file
+#README.md
+
+#ignore the static folder
+plots/*
+
+#any fits files
+*.fits
+*.FITS
+
+#ignore some of the random data and any images and stuff
+images/*
+!beacons-20-chosen.reg
+
+#any vscode stuff
+.vscode/
+
+#cache
+__pycache__/
+
+#all cache
+*cache*
+*.pyc
+
+#ignore everything in JS9 except js9prefs
+js9install/*
+!js9install/js9prefs.js
+!js9install/js9Prefs.json
+!js9install/js9Secure.json
+!js9install/data
+!js9/js9prefs.js
+!js9/js9Prefs.json
+!data
