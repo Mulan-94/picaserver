@@ -147,7 +147,7 @@ function lodLosPlots(im, xreg) {
 
 
 function loadLosRegs() {
-    JS9.LoadRegions("./js9install/data/beacons-20-chosen.reg", {
+    JS9.LoadRegions("./js9install/data/beacons-t10-5-fk5.reg", {
         "selectable": false,
         "removeable": false,
         "strokeWidth": 1

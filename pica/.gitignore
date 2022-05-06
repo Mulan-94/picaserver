@@ -12,12 +12,6 @@ plots/*
 *.fits
 *.FITS
 
-#ignore some of the random data and any images and stuff
-images/*
-!beacons-20-chosen.reg
-!beacons-20-chosen-fk5.reg
-
-
 #any vscode stuff
 .vscode/
 
